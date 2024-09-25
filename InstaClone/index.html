@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta clonez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <script>
+
+        var randomNumber = Math.floor(Math.random() * 1000) + 1;
+        
+        document.getElementById('Count').textContent = randomNumber;
+    </script>
+    <div class="Container">
+      <div class="TopContent">
+
+    <!-- <div class="SignButtons">
+        <button class="LogIn">Log In</button>
+        <button class="SignUp">Sign Up</button>
+    </div> 
+<hr>-->
+
+    <div class="SideNav">
+        <div class="Header">
+            <!-- <h2 class="InstagramTitle">Instagram</h2> -->
+             <img src="./Screenshot 2024-09-22 234820.png" alt="InstagramTitle" class="InstaImg">
+        </div>
+        <ul>
+            <li>
+                <a href="#Home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a href="#Search"><i class="fas fa-search"></i> Search</a>
+            </li>
+            <li>
+                <a href="#Explore"><i class="fas fa-compass"></i> Explore</a>
+            </li>
+            <li>
+                <a href="#Reels"><i class="fas fa-video"></i> Reels</a>
+            </li>
+            <li>
+                <a href="#Messages"><i class="fas fa-comments"></i> Messages</a>
+            </li>
+            <li>
+                <a href="#Notification"><i class="fas fa-heart"></i> Notifications</a>
+            </li>
+            <li>
+                <a href="#Create"><i class="fas fa-plus-square"></i> Create</a>
+            </li>
+            <li>
+                <a href="#Profile"><i class="fas fa-user"></i> Profile</a>
+            </li>
+            <li>
+                <a href="#Threads" class="Threads"><i class="fas fa-link"></i>Threads</a>
+            </li>
+            <li>
+                <a href="#More" class="More"><i class="fas fa-bars"></i> More</a>
+            </li>
+        </ul>
+        
+    </div>
+    </div>
+
+    <div class="Main-Content">
+        <div class="ProfileInfo">
+            <div class="Profile">
+                <img src="./Images/Profile.jpg" alt="ProfilePicture" class="ProfilePicture">
+            </div>
+        <div class="ProfileHeader">
+            <div class="FirstLineInfo">
+                <h2 class="ProfileName">discovery</h2>
+                <img src="./VerifiedSymbol.png" alt="VerifiedSymbol" class="VerifiedSymbol">
+                    <button class="ReqButton">Follow</button>
+                    <button class="ReqButton">Message</button>
+                    <button class="normal">&#x2795;</button>
+                    <button class="normal">...</button>
+            </div>
+        
+        <div>
+            <ul class="AccountDetails">
+                <li>4,756 posts</li>
+                <li>|</li>
+                <li>20.2M followers</li>
+                <li>|</li>
+                <li>924 following</li>
+            </ul>
+        </div>
+
+         <div class="Bio">
+            <h4 class="DiscoveryBioName">Discovery</h4>
+            <a href="https://www.threads.net/@discovery" class="DiscoveryThreadButton"><i class="fas fa-link"></i>discovery</a>
+                <!-- <button ></button> -->
+                <p class="BioPara">We'll bring the 🌍 to you &#10084; </p>
+                <a href="https://www.discovery.com/" class="WebsiteLink" style="color: navy; text-decoration: none; font-weight: bold;" >&#128279; Discovery.com</a>
+                <p class="Followed">Followed by <b><a href="https://www.instagram.com/code_mithra/?hl=en">CodeMithra</a>,<a href="https://www.instagram.com/ethnus/?hl=en">Ethnus</a></b><span class="FollowedMore">+6 more</span></p>
+        </div>
+    </div>
+    </div>
+
+        <div class="Highlights">
+          <ul>
+            <li>
+                <img src="./Images/Highlights/Highlight1.jpeg" alt="Highlight1" class="Highlight hl1">
+                <h6 class="HlText">USFWS</h6>           
+            </li>
+                
+            <li>
+                <img src="./Images/Highlights/Highlight2.jpeg" alt="Highlight2" class="Highlight hl2">
+                <h6 class="HlText">Explore quiz!</h6>
+            </li>
+
+            <li>
+                <img src="./Images/Highlights/Highlight3.jpeg" alt="Highlight3" class="Highlight hl3">
+                <h6 class="HlText">Mosaic:education</h6>
+            </li>
+
+            <li>
+                <img src="./Images/Highlights/Highlight4.jpeg" alt="Highlight4" class="Highlight hl4">
+                <h6 class="HlText">Mosaic:BHM</h6>
+            </li>
+
+            <li>
+                <img src="./Images/Highlights/Highlight5.jpeg" alt="Highlight5" class="Highlight hl5">
+                <h6 class="HlText">Parks+Refuges</h6>
+            </li>
+
+            <li>
+                <img src="./Images/Highlights/Highlight6.jpeg" alt="Highlight6" class="Highlight hl6">
+                <h6 class="HlText">Zoo+Aquarium</h6>
+            </li>
+
+            <li>
+                <img src="./Images/Highlights/Highlight7.jpeg" alt="Highlight7" class="Highlight hl7">
+                <h6 class="HlText">Earth Month</h6>
+            </li>
+
+          </ul>
+
+        </div>
+
+<hr>
+
+
+     <div class="Nav-bar">
+        <h5 class="nav"><i class="fas fa-th"></i>POSTS</h5>
+        <h5 class="nav"><i class="fas fa-video"></i>REELS</h5>
+        <h5 class="nav"><i class="fas fa-tag"></i>TAGGED</h5>
+     </div>
+
+     <div class="Posts">
+        <img src="https://picsum.photos/800/600?random=1" alt="Post1" id="post1" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=2" alt="Post2" id="post2" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=3" alt="Post3" id="post3" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=4" alt="Post4" id="post4" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=5" alt="Post5" id="post5" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=6" alt="Post6" id="post6" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=7" alt="Post7" id="post7" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=8" alt="Post8" id="post8" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=9" alt="Post9" id="post9" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=10" alt="Post10" id="post10" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=11" alt="Post11" id="post11" class="postpic">
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+        <img src="https://picsum.photos/800/600?random=12" alt="Post12" id="post12" class="postpic"> 
+        <p><i class="fas fa-heart"></i>Likes <span id='Count'></span></p>
+        <p><i class="fas fa-comments"></i>Commands <span id='Count'></span></p>
+     </div>
+    </div>
+</div>
+</body>
+</html>

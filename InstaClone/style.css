@@ -1,0 +1,310 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+/* HEADER SECTION */
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.InstaImg{
+    width: 150px;
+    height: 50px;
+    padding: 10px 0px 10px 15px;
+    background-color: whitesmoke;
+}
+
+.SideNav{
+    width: 250px; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    background-color: whitesmoke; 
+    overflow-y: auto;   
+    border-right: .5px solid lightgray;
+}
+
+.SideNav li{
+    list-style-type: none;  
+    padding: 5px 0px 25px 5px;
+    display: flex;
+    font-size: 1.2em;
+}
+
+.SideNav a{
+    text-decoration: none;
+    color: black;
+}
+
+.Threads,.More{
+    margin:100px 0px -100px 0px;
+    color: black;
+}
+
+.Main-Content {
+    margin-left: 250px; 
+}
+
+/* ACCOUNT INFO SECTION */
+
+/* .InstagramTitle{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: #262626; 
+    text-align: center;
+    margin: 10px 0 ;
+} */
+ 
+.ProfilePicture{
+    display: flex;
+    justify-content: flex-start;
+    width: 200px; 
+    height: 200px; 
+    margin: 0px 0px 0px 280px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+.ProfileInfo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 0px 0px -500px;
+}
+
+.FirstLineInfo{
+    display: inline-flex;
+    padding: -200px;
+    width: 50px;
+    height: 20px;
+    margin: 50px 0px 10px -10px; 
+
+}
+.AccountDetails{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 5px 5px 5px 10px; 
+    color:#656363;
+    list-style-type: none;
+    font-size: large;
+}
+
+.AccountDetails li {
+    display: inline-block; 
+    margin-right: 10px;
+} 
+.ProfileName{
+    margin: -10px 20px 0px 0px;
+
+}
+.VerifiedSymbol{
+    width: 30px;
+    height: 30px;
+    margin: -10px 100px 0px -20px;
+}
+
+.ReqButton{
+    font-family: 'Montserrat',sans-serif;
+    background-color:rgb(0, 174, 255);
+    color: white;
+    border: 0px;
+    border-radius:7px;
+    transition: 300ms;
+    text-shadow: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:-15px 0px 5px 10px; 
+    padding: 5px;
+    font-size: 18px;
+}
+.normal{
+    color: black;
+    border: 0px;
+    border-radius:7px;
+    transition: 300ms;
+    text-shadow: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:-15px 0px 5px 10px; 
+    padding: 5px;
+    font-size: 18px;
+}
+
+.normal:hover{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.ReqButton:hover{
+    background-color:gray;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+/* BIO SECTION */
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.Profile {
+    display: flex; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.DiscoveryThreadButton{
+    font-family: 'Montserrat',sans-serif;
+    background-color:lightslategray;
+    color: white;
+    border: 0px solid white;
+    border-radius:10px;
+    transition: 300ms;
+    text-decoration: none;
+    text-shadow: none;
+    margin:-10px 5px 5px;
+    padding: 5px; 
+    font-size: 1.2em;
+}
+
+.DiscoveryThreadButton:hover{
+    background-color:#262626;
+    border-radius: 10px;
+    padding: 4px;
+    color:white;
+}
+
+.Followed b{
+    margin-right: 5px;
+}
+
+.Followed a{
+    text-decoration: none;
+    color: black;
+}
+
+.FollowedMore{
+    color: #656363;
+    
+}
+
+
+/* HIGHLIGHT SECTION */
+
+.Highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Highlight li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-left:50px ;
+    margin-top: 10px;
+    font-size: .8em;
+}
+
+.Highlights li{
+    display:inline-block;
+}
+
+.Highlights h6{
+    font-size: .8em;
+    margin: 10px 10px 0px 50px ;
+}
+.Highlight{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin: 20px 30px 1px 30px;
+}
+.Highlight:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+/* NAV BAR SECTION */
+
+.Nav-bar{
+    display: flex;
+    justify-content: center;   
+}
+.nav{
+    display: flex;
+    margin-left:40px;
+    font-size: 1em;
+}
+
+.nav i {
+    margin-right: 10px; 
+    margin-top: 2px;
+}
+
+.nav:hover{
+    background-color: #262626;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+/* POST SECTION */
+
+.postpic{
+    width: 400px;
+    height: 400px;
+    transition: transform 500ms ease-in-out;
+}
+
+.Posts{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(400px,1fr));
+    column-gap: 5px;
+    position: relative;
+    row-gap: 5px;   
+    margin: 0px 500px 0px 50px;
+}
+.Posts p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); 
+    transition: opacity 0.3s ease;    
+}
+#post1:hover,#post2:hover,#post3:hover,#post4:hover,#post5:hover,#post6:hover,#post7:hover,#post8:hover,#post9:hover,#post10:hover,#post11:hover,#post12:hover{
+    transform: scale(1.01); 
+    background-color: black;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:425) {
+    .container{
+        width: 30%;
+        display: grid;
+        grid-template-columns: repeat(3,minmax(auto,1fr));
+    }
+}
+
+@media (max-width:425) {
+    .SideNav{
+        display: none;
+    }
+}
